@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Watermark</title>
+<style>
+div{
+	position: fixed;
+	bottom: 500px;
+	left: 200px;
+	z-index: 10000;
+	font-size: 100px;
+	color: red;
+	transform: rotate(-30deg);
+	opacity: 0.6;
+}
+
+.watermark{
+	size:20px;
+}
+
+</style>
+</head>
+<body>
+<div class="watermark">Watermark</div>
+</body>
+</html>
+
